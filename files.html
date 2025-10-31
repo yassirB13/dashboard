@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-relative">
+            <h3 class="p-relative txt-c mt-0">Nexus</h3>
+            <ul>
+                <li class="rad-6">
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="mr-10 fa-solid fa-chart-bar fa-fw"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="mr-10 fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="mr-10 fa-solid fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="mr-10 fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="mr-10 fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friend.html">
+                        <i class="mr-10 fa-solid fa-user-group fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="mr-10 fa-solid fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="mr-10 fa-solid fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start head -->
+            <div class="head bg-white p-10 w-full between-flex p-relative">
+                <div class="search">
+                    <input class="rad-10 p-10 bord-c" type="search" placeholder="Type a keyword">
+                </div>
+                <div class="icons d-flex align-center">
+                    <span class="p-relative">
+                        <i class="fa-regular fa-bell mr-10 fa-lg"></i>
+                    </span>
+                    <img src="images/my-image.svg" alt="">
+                </div>
+            </div>
+            <!-- End head -->
+            <h1 class="p-relative">Files</h1>
+            <div class="files-page d-flex m-20 gap-20">
+
+                <div class="uploads bg-white rad-10 p-20">
+                    <h2 class="m-0 mb-15 txt-c-mobile">Files Overview</h2>
+                    <div class="file d-flex align-center bord-e rad-6 mb-15 fs-13 p-10">
+                        <i class="fa-solid fa-file-lines c-blue blue center-flex icon"></i>
+                        <div class="info">
+
+                            <span class="m-0 mb-5">Reports</span>
+                            <span class="c-gray d-block">130 Files</span>
+
+                        </div>
+                        <span class="size c-gray ">6.5 GB</span>
+
+                    </div>
+                    <div class="file d-flex align-center bord-e rad-6 mb-15 fs-13 p-10">
+                        <i class="fa-solid fa-file-image c-green green center-flex icon"></i>
+                        <div class="info">
+
+                            <span class="m-0 mb-5">Images</span>
+                            <span class="c-gray d-block">115 Files</span>
+
+                        </div>
+                        <span class="size c-gray ">3.5 GB</span>
+
+                    </div>
+                    <div class="file d-flex align-center bord-e rad-6 mb-15 fs-13 p-10">
+                        <i class="fa-solid fa-file-word red c-red center-flex icon"></i>
+                        <div class="info">
+
+                            <span class="m-0 mb-5">Word Docs</span>
+                            <span class="c-gray d-block">110 Files</span>
+
+                        </div>
+                        <span class="size c-gray ">3.2 GB</span>
+
+                    </div>
+                    <div class="file d-flex align-center bord-e rad-6 mb-15 fs-13 p-10">
+                        <i class="fa-solid fa-file-csv orange c-orange center-flex icon"></i>
+                        <div class="info">
+
+                            <span class="m-0 mb-5">CSV Files</span>
+                            <span class="c-gray d-block">99 Files</span>
+
+                        </div>
+                        <span class="size c-gray ">2.9 GB</span>
+
+                    </div>
+                    <a class="button fs-13 c-white bg-blue d-block btn-shape w-fit " href="#">
+                        <i class="fa-solid fa-angles-up mr-10"></i>
+                        Upload
+                    </a>
+                </div>
+                <div class="files d-grid gap-20">
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload1.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">project-plan.pdf</p>
+                        <span class="by fs-13 c-gray ">Ethan</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>03/10/2025</span>
+                            <span>4.8 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload2.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">marketing-video.avi</p>
+                        <span class="by fs-13 c-gray ">Emma</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>06/01/2025</span>
+                            <span>12.2 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload3.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">ogo-design.psd</p>
+                        <span class="by fs-13 c-gray ">Liam</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>09/01/2025</span>
+                            <span>15.5 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload4.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">backup-archive.zip</p>
+                        <span class="by fs-13 c-gray ">Olivia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>12/01/2025</span>
+                            <span>8.7 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload5.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">system-core.dll</p>
+                        <span class="by fs-13 c-gray ">Mason</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>15/01/2025</span>
+                            <span>2.1 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload6.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">brand-illustration.eps</p>
+                        <span class="by fs-13 c-gray ">Ava</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>18/01/2025</span>
+                            <span>3.3 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload2.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">contract-draft.avi</p>
+                        <span class="by fs-13 c-gray ">Noah</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>21/01/2025</span>
+                            <span>5.0 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload1.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">travel-footage.pdf</p>
+                        <span class="by fs-13 c-gray ">Sophia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>24/01/2025</span>
+                            <span>11.8 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload3.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">app-layout.psd</p>
+                        <span class="by fs-13 c-gray ">Jacob</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>27/01/2025</span>
+                            <span>14.2 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload5.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">data-package.dll</p>
+                        <span class="by fs-13 c-gray ">Isabella</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>30/01/2025</span>
+                            <span>7.9 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload4.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">driver-update.zip</p>
+                        <span class="by fs-13 c-gray ">Lucas</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>02/02/2025</span>
+                            <span>2.5 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload6.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">product-vector.eps</p>
+                        <span class="by fs-13 c-gray ">Mia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>05/02/2025</span>
+                            <span>2.9 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload1.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">financial-report.pdf</p>
+                        <span class="by fs-13 c-gray ">Ethan</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>08/02/2025</span>
+                            <span>6.1 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload4.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">training-video.zip</p>
+                        <span class="by fs-13 c-gray ">Emma</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>11/02/2025</span>
+                            <span>13.4 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload3.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">website-template.psd</p>
+                        <span class="by fs-13 c-gray ">Liam</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>14/02/2025</span>
+                            <span>16.0 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload2.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">photos-collection.avi</p>
+                        <span class="by fs-13 c-gray ">Olivia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>17/02/2025</span>
+                            <span>9.2 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload1.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">runtime-module.pdf</p>
+                        <span class="by fs-13 c-gray ">Mason</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>20/02/2025</span>
+                            <span>2.3 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload3.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">poster-concept.psd</p>
+                        <span class="by fs-13 c-gray ">Ava</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>23/02/2025</span>
+                            <span>3.0 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload6.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">invoice-list.eps</p>
+                        <span class="by fs-13 c-gray ">Noah</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>26/02/2025</span>
+                            <span>5.3 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload5.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">demo-footage.dll</p>
+                        <span class="by fs-13 c-gray ">Sophia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>01/03/2025</span>
+                            <span>11.5 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload4.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">mobile-ui.zip</p>
+                        <span class="by fs-13 c-gray ">Jacob</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>04/03/2025</span>
+                            <span>14.7 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload1.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">database-backup.pdf</p>
+                        <span class="by fs-13 c-gray ">Isabella</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>07/03/2025</span>
+                            <span>4.8 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload6.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">plugin-helper.eps</p>
+                        <span class="by fs-13 c-gray ">Lucas</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>10/03/2025</span>
+                            <span>8.4 MB</span>
+                        </div>
+                    </div>
+                    <div class="file bg-white rad-10 p-10">
+                        <i class="fa-solid fa-download c-gray"></i>
+                        <img class="d-block" src="images/upload2.webp" alt="">
+                        <p class="file-name fs-14 mb-15 mt-15 txt-c">banner-artwork.avi</p>
+                        <span class="by fs-13 c-gray ">Mia</span>
+                        <div class="info between-flex c-gray fs-13 bord-t-e pt-10 mt-10">
+                            <span>13/03/2025</span>
+                            <span>3.1 MB</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
